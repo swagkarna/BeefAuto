@@ -58,6 +58,10 @@ python script Automate Beef  And Configure it to use overwan by using ngrok to o
  ![](/Screenshot/yt-dis.png)
 * Added Fake CloudFlare Page to make hooked website more trusted by target 
  ![](/Screenshot/CloudFlare.png)
+ 
+<h2>Video</h2>
+<a href="https://www.youtube.com/watch?v=52jXi2AeNfA"><img src="https://www.upload.ee/image/13217287/Tutorial.png" style="max-width:100%;"></a>
+
 
 
 # DISCLAIMER
