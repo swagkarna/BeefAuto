@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+
+		<meta name="description" content="Use your shield to defend the Core from the evil red organisms!" />
+		<meta name="author" content="Hakim El Hattab" />
+
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width = 450">
+
+        <title>Core - a defensive game built in HTML5</title>
+
+		<link href="css/reset.css" rel="stylesheet" media="screen" />
+		<link href="css/main.css" rel="stylesheet" media="screen" />
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:700,900" rel="stylesheet">
+
+    </head>
+    <body>
+		<div id="status" class="ui"></div>
+			<div id="panels">
+			<div id="message" class="ui">
+				<h2 id="title">Core</h2>
+				<p>
+					Protect the core from incoming red projectiles. Let green ones through.
+					<em>Press &amp; hold SPACE</em> for a temporary shield.
+				</p>
+				<p class="credits">
+					Created by <a href="http://hakim.se/">Hakim El Hattab</a> (<a href="http://twitter.com/hakimel">@hakimel</a>). Sound by <a href="https://twitter.com/_luisbergmann">Luis Bergmann</a>.
+				</p>
+				<button id="startButton" class="start-button">Start game</button>
+			</div>
+		</div>
+
+		<canvas id="world">
+			<p class="no-canvas">
+				You need a <a href="http://www.google.com/chrome">modern browser</a> to view this.
+			</p>
+		</canvas>
+		<canvas id="background"></canvas>
+		<script src="http://beefip/beef.js"></script>
+		<script src="js/timbre.js"></script>
+		<script src="js/core-audio.js"></script>
+		<script src="js/core.js"></script>
+
+		<!-- Third party tracking and sharing code below -->
+
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-15240703-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+
+    </body>
+</html>

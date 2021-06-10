@@ -1,0 +1,162 @@
+
+
+/*********************************************
+ * GLOBAL
+ *********************************************/
+
+body, html {
+	overflow: hidden;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: 11px;
+	background: #010c12;
+}
+
+.no-canvas {
+	color: #999999;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+
+/*********************************************
+ * EXPERIMENT STYLES
+ *********************************************/
+
+canvas {
+	border: 6px #333333 solid;
+	cursor: crosshair;
+	z-index: 1;
+}
+
+#background {
+	border: none;
+	z-index: 0;
+}
+
+.ui {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-align: left;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.4);
+	float: left;
+}
+
+#status {
+	width: 884px;
+	height: 15px;
+	padding: 8px;
+	display: none;
+	position: absolute;
+	z-index: 2;
+}
+
+#status span {
+	color: #bbbbbb;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#status .fps {
+	float: right;
+}
+
+#panels {
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+
+#message {
+	padding: 150px 300px 0 60px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+
+#message .start-button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 2em;
+	font-family: inherit;
+	border-radius: 2px;
+	margin-top: 20px;
+	background-color: #eee;
+	color: #222;
+	font-size: 1.6em;
+	text-transform: inherit;
+	transition: all .18s linear;
+
+	outline: 0;
+	border: 0;
+	cursor: pointer;
+
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#message .start-button:hover {
+	background-color: #fff;
+}
+
+#message p {
+	margin-bottom: 20px;
+}
+
+#message a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#message a:hover {
+	text-decoration: underline;
+}
+
+.ui h2 {
+	margin-bottom: 20px;
+	color: #eeeeee;
+}
+
+.ui p em {
+	color: #f5f5f5;
+}
+
+.ui ol {
+	margin: 10px 0;
+	padding-left: 1em;
+}
+
+.ui ol li {
+	margin: 0 0 2px 0;
+	list-style: unset;
+}
+
+.ui a.external {
+	outline: none;
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #bbbbbb;
+	display: inline;
+	padding: 0;
+}
+
+.ui a.external:hover {
+	color: #ffffff;
+}
+
+
+@media screen and (max-width: 600px) {
+	#message {
+		padding: 60px 40px;
+	}
+}
