@@ -60,7 +60,9 @@ python script Automate Beef  And Configure it to use overwan by using ngrok to o
  ![](/Screenshot/CloudFlare.png)
 * Added Simple Function to Delete Beef Zombies Since beef-xss -x dosen t work 
  ![](/Screenshot/Delete.png)
- 
+* Added Another Game to distract target
+ ![](/Screenshot/anothergame.png)
+
 <h2>Video</h2>
 <a href="https://www.youtube.com/watch?v=52jXi2AeNfA"><img src="https://www.upload.ee/image/13217287/Tutorial.png" style="max-width:100%;"></a>
 
