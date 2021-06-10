@@ -29,6 +29,7 @@ python script Automate Beef  And Configure it to use overwan by using ngrok to o
 # INSTALLATION [ KALI ]
 * git clone https://github.com/youhacker55/BeefAuto
 * cd BeefAuto
+* sudo pip3 install -r requirements.txt
 * sudo bash install.sh
 * sudo python3 main.py
 # TESTED ON FOLLOWING:-
