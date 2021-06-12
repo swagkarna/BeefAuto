@@ -1,7 +1,7 @@
 # BeefAuto
 
 <p align="center">
-  <img src="https://github.com/youhacker55/BeefAuto/blob/main/BeefAuto.png" alt="Logo" width="300" height="300">
+  <img src="https://github.com/youhacker55/BeefAuto/blob/main/icon.png" alt="Logo" width="300" height="300">
 </p>
 <p align="center">
   <b> Follow on Social Media Platforms </b>
