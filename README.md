@@ -1,5 +1,8 @@
 # BeefAuto
 
+<p align="center">
+  <img src="https://github.com/youhacker55/BeefAuto/blob/main/icon.jpg">
+</p>
 
 <p align="center">
   <b> Follow on Social Media Platforms </b>
