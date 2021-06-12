@@ -73,6 +73,8 @@ python script Automate Beef  And Configure it to use overwan by using ngrok to o
 # Credits
 * @jihedkdiss
    For Making Icon for BeefAuto
+* @youhacker55
+   For Making this Tool
 
 
 
