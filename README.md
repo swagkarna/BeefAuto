@@ -1,7 +1,7 @@
 # BeefAuto
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/youhacker55/BeefAuto/blob/main/BeefAuto.png">
 </p>
 
 <p align="center">
