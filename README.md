@@ -72,6 +72,8 @@ python script Automate Beef  And Configure it to use overwan by using ngrok to o
 # Credits
 * [@jihedkdiss](https://github.com/jihedkdiss)
    For Making Icon for BeefAuto
+* [@MohamedAmine](https://github.com/mohamedamine-tarhouni)
+    For Making the SuperMario Game
 * @youhacker55
    For Making this Tool
 
