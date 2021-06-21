@@ -67,7 +67,7 @@ python script Automate Beef  And Configure it to use overwan by using ngrok to o
  ![](/Screenshot/anothergame.png)
 
 <h2>Video</h2>
-<a href="https://www.youtube.com/watch?v=52jXi2AeNfA"><img src="https://www.upload.ee/image/13217287/Tutorial.png" style="max-width:100%;"></a>
+<a href="https://www.youtube.com/watch?v=-8519PsTjf4"><img src="https://www.upload.ee/download/13252442/4ed756856ee41956de14/BeefAuto.jpg" style="max-width:100%;"></a>
 
 # Credits
 * [@jihedkdiss](https://github.com/jihedkdiss)
