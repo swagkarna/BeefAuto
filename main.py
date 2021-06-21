@@ -59,7 +59,7 @@ def ytbvid():
     print(Green + "sendthis to victim: http://" + x)
     spoofurl()
     print(Green + "good luck :) Attacker")
-    print(Red + "type CRTL + C if you want to exit")
+    print(Red + "Press CRTL + C if you want to exit")
     signal.pause()
 
 
