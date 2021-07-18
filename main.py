@@ -29,7 +29,7 @@ def Deletezombie():
             print(Green+"Database Deleted")
 
         else:
-            print(Red + "Can t find databes")
+            print(Red + "Can t find Beef database")
     else:
         sys.exit()
 
