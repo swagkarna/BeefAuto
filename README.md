@@ -17,7 +17,6 @@
     <img src="https://img.shields.io/badge/language-python-blue.svg">
  </a>
  
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
 
 python script Automate Beef  And Configure it to use overwan by using ngrok to open ports
 # ScreenShots
